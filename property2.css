@@ -1,0 +1,124 @@
+nav 
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul 
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0px 10px;
+    display: flex;
+}
+
+nav img
+{
+    width: 100px;
+    border-radius: 70%;
+}
+
+nav ul li a 
+{
+    list-style: none;
+    display: flex;
+    padding: 8px 18px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-size:  18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover 
+{
+    background: rgb(13, 13, 13);
+    border-radius: 6px;
+}
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 220px;
+    z-index: 1;
+    box-shadow: none;
+}
+  
+.dropdown-content a 
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font: bolder;
+}
+  
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(248, 244, 244);}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+section img {
+    width: 40%;
+    height: 30%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.details {
+    width: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    color: white;
+    padding: 24px;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: larger;
+}
+
+h1
+{
+    font-size: 40px;
+}
+.container
+{
+    display: flex;
+}
+
+.int1,
+.int2,
+.int3
+ {
+    flex: 1%;
+    margin: 100px 4px;
+    float: left;
+}
+
+.int1 img,
+.int2 img,.int3 img {
+
+    width: 490px;
+    height: 350px;}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(35, 160, 176, 0.7));
+}

@@ -1,0 +1,140 @@
+nav 
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul 
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0px 10px;
+    display: flex;
+}
+
+nav img
+{
+    width: 100px;
+    border-radius: 70%;
+}
+
+nav ul li a 
+{
+    list-style: none;
+    display: flex;
+    padding: 8px 18px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-size:  18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover 
+{
+    background: rgb(13, 13, 13);
+    border-radius: 6px;
+}
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+  body
+  {
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(76, 83, 171, 0.7));
+  }
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 220px;
+    z-index: 1;
+    box-shadow: none;
+}
+  
+.dropdown-content a 
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font: bolder;
+}
+  
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(248, 244, 244);}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.agency-info {
+  flex: 1;
+  font-size: large;
+}
+
+.agency-info h3{
+  font-size: xx-large;
+}
+.agency-info h4
+{
+  font-size: x-large;
+}
+.social-links {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.social-links a {
+  
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.home img
+{
+  width: 500px;
+  height: 300px;
+  float: right;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.image {
+  margin-left: 500px;
+}
+
+.image img {
+  max-width: 900px;
+  height : 400px;
+  border-radius: 10px;
+}

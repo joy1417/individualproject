@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.png">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <div class="dropdown">
+                    <li><a>Available Properties</a></li>
+                    <div class="dropdown-content">
+                        <a href="property1.html">Property Type 1</a>
+                        <a href="property2.html">Property Type 2</a>
+                        <a href="property3.html">Property Type 3</a>
+                    </div>
+                </div>
+                <li><a href="contact.html">Contact Form</a></li>
+                <li><a href="credit.html">Site Map</a></li>
+            </ul>
+    </nav>
+    <section>
+        <form action="#" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name Here"><br>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email ID"><br>
+            
+            <label for="phone">Phone Number:</label>      
+            <input type="tel" id="phone" name="phone" placeholder="+1 (123)-456-7890"><br>
+
+            <label for="property">Property type:</label>
+            <input type="text" id="property" name="property" placeholder="Enter the Type of Property You Need"><br>
+
+            <label for="location"><b>Location:</b></label>
+            <input type="text" id="location" name="location" placeholder="Prefered Location"><br>
+
+            <label for="other"><b>Other:</b></label>
+            <input type="text" id="other" name="other" placeholder="Other Comments">
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
